@@ -1,0 +1,339 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: none;
+    font-family: sans-serif;
+    overflow-y: none;
+    overflow-x: 0px;
+}
+.bb{
+    display: flex;
+}
+.sidebar{
+    border: 1px solid white;
+    max-width: 340px;
+    height: 650px;
+    background-color: rgb(212, 2, 2);
+    opacity: 0.8 ;
+    position: fixed;
+}
+.logo{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 90px 40px;
+}
+.sidebtn{
+    display: grid;
+    /* gap: 15px; */
+}
+
+a{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* margin-left: 40px; */
+    padding: 10px 35px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.btn a:hover{
+    color: black;
+}
+.text{
+        padding: 100px 330px;
+}
+.text1{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.text2{
+    color: rgb(212, 2, 2);
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: sans-serif;    
+}
+.line{
+    border: 1px solid rgb(212, 2, 2);
+    width: 85px;
+    height: 10px;
+    margin: 2px 330px;
+    margin-top: -80px;
+    background-color: rgb(212, 2, 2);
+    border-radius: 15px;
+}
+.image{ 
+    border: 2px solid #f3f3f3;
+    width: 400px;
+    background-color: #cccccc56;
+    height: 360px;
+    margin-bottom: -350px;
+    z-index: 1;
+    position: absolute;
+    
+}
+img{
+    position: absolute;
+}
+.iii{
+    border: 1px solid rgb(250, 250, 250);
+    height: 400px;
+    display: flex;
+    gap: 415px;
+    /* margin-left: 300px; */
+    margin: 40px 330px;
+}
+.image:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.www{
+    display: flex;
+    border: 1px solid transparent;
+    height: 400px;
+    gap: 415px;
+    margin: 0px 330px;
+    margin-top: -70px;
+}
+.image2{ 
+    border: 2px solid #f3f3f3;
+    width: 400px;
+    background-color: #cccccc56;
+    height: 260px;
+    margin-bottom: -350px;
+    z-index: 1;
+    position: absolute;  
+}
+img{
+    position: absolute;
+}
+.image2:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.rrr{
+    border: 1px solid transparent;
+    height: 500px;
+    display: flex;
+    gap: 415px;
+    margin: 0px 330px;
+    margin-top: -129px;
+}
+.border2{
+    font-size: 50px;
+    padding: 20px 315px;
+    font-family: sans-serif;
+    color: rgb(212, 2, 2);
+    font-weight: bold;
+    margin-top: -190px;
+}
+.border4{
+    border: 1px solid white;
+    width: 50px;
+    margin: 0px 315px;
+    height: 10px;
+    background-color: rgb(212, 2, 2);
+    border-radius: 20px;
+}
+.diagram{
+    font-family: sans-serif;
+    line-height: 25px;
+    margin: 20px 315px;
+    width: 72%;
+}
+.border9{
+    font-size: 50px;
+    padding: 20px 315px;
+    font-family: sans-serif;
+    color: rgb(212, 2, 2);
+    font-weight: bold;
+}
+.border5{
+    border: 1px solid white;
+    width: 70px;
+    margin: 0px 315px;
+    height: 10px;
+    background-color: rgb(212, 2, 2);
+    border-radius: 20px;
+}
+.diagram2{
+    font-family: sans-serif;
+    line-height: 25px;
+    margin: 20px 315px;
+    width: 75%;
+}
+.sw{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 315px;
+}
+.seun{
+    border: 1px solid white;
+    width: 300px;
+    margin: 20px;
+    background-color: #c9c9c9;
+}
+.seun3{
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+}
+.team5{
+    width: 300px;
+}
+.se{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 30px 27px;
+    text-transform: capitalize;
+}
+.sh{
+    font-size: 19px;
+    font-family: sans-serif;
+    margin: -10px 27px;
+    text-transform: capitalize;
+    color: #9b9b9b;
+}
+.sr{
+    font-size: 19px;
+    font-family: sans-serif;
+    margin: 20px 27px;
+    color: rgb(27, 27, 27);
+}
+.soba{
+    display: flex;
+    margin: 0px 300px;
+}
+.ddd{
+    margin: 10px 300px;
+    display: flex;
+    gap: 20px;
+    width: 75%;
+}
+.c{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.b{
+    height: 60px;
+    gap: 0px;
+}
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.nav{
+    border: 1px solid white;
+    max-width: 800px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    border: 1px solid grey;
+    padding: 20px 150px;
+    background-color: #e6e6e6;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.boy{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding: 35px;
+}
+li:last-child{
+    border-bottom: none;
+}
+.boy2{
+    background-color: rgb(212,2,2);
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding: 35px;
+}
+.err{
+    margin: 30px 310px;
+    width: 900px;
+}
+
+input{
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    gap: 30px;
+}
+.nan{
+    border: 1px solid white;
+    margin: 30px 290px;
+    line-height: 40px;
+    gap: 50px;
+    width: 70%;
+}
+.message{
+    border: 1px solid white;
+    margin: 20px 300px;
+   
+}
+.Send{
+    background-color: red;
+    padding: 10px 60%;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #dfdfdf;
+}
+.textt{
+    color: black;
+    justify-content: space-between;
+}
+.qrf{
+    color: #838383;
+}
+.abcde{
+    background-color: rgb(212, 2, 2);
+}
+.left{
+   border: 1px solid transparent;
+   width: 700px;
+   height: 100px;
+   line-height: 150px;
+   float: right;
+   justify-content: space-between;
+}
+.left a{
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}

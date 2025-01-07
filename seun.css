@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.good{
+    border: 1px solid transparent;
+    height: 110px;
+    width: 60%;
+    background-color: rgba(255, 217, 0, 0.767);
+   margin: -150px 3px;
+   position: absolute;
+}
+.all{
+    margin: 0.8em;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.image1{
+    border: 1px solid transparent;
+    margin: 3rem;
+}
+.total{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.rem{
+    border: 1px solid transparent;
+    width: 598px;
+    height: 8px;
+    background-color: gold;
+}
+.image2{
+    margin: 58px -30px;
+    position: relative;
+}
+.mem{
+    border: 1px solid transparent;
+    width: 598px;
+    height: 8px;
+    background-color: gold;
+    /* margin-top: 40px; */
+    position: absolute;
+    margin: 48px 666px;
+}
+.text{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.text2{
+    font-family: sans-serif;
+    line-height: 40px;
+}
+.image3{
+    margin: 3em;
+}
+.looo{
+    border: 1px solid transparent;
+    width: 598px;
+    height: 8px;
+    background-color: gold;
+}
+.image4{
+    margin: 48px -20px;
+}
+.look{
+    border: 1px solid transparent;
+    width: 598px;
+    height: 8px;
+    background-color: gold;
+}
+.lone{
+    display: flex;
+}
