@@ -246,7 +246,7 @@
    transition: 3s ease;
 }
 .portfolio-box{
-   height: 40rem;
+   height: 30rem;
 }
 .portfolio-box:hover .portfolio-layer{
    transform: translateY(0);
