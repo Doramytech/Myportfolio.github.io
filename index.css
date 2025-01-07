@@ -42,6 +42,12 @@
     align-items: center;
     z-index: 100;
  }
+ .sticky{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+ }
  
  .header .sticky{
    border-bottom: 1rem solid rgba(0,0,0,.2);
@@ -238,6 +244,9 @@
    padding: 0 4rem;
    transform: translateY(100%);
    transition: 3s ease;
+}
+.portfolio-box{
+   height: 40rem;
 }
 .portfolio-box:hover .portfolio-layer{
    transform: translateY(0);
